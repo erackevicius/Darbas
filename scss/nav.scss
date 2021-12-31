@@ -1,0 +1,25 @@
+// navigation
+nav {
+	width:100%;
+	/*height:50px*/;
+	background: $nav-color;
+
+	ul {
+		height: 50px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		list-style: none;
+
+		a {
+			text-decoration: none;
+			color: $nav-txt-color;
+			transition:0.3s;
+
+			&:hover {
+				color: $txt-color;
+				font-size: 1.5em;
+			}
+		}
+	}
+}
