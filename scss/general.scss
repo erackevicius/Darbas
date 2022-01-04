@@ -1,5 +1,12 @@
+// general
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-	background: $bg-color;
-	color: $txt-color;
-	font-family:verdana;
+  font-family: 'Lato', sans-serif;
 }

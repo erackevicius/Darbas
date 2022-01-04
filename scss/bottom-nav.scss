@@ -1,0 +1,42 @@
+// bottom nav
+
+.b-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $bg-color;   
+  padding: 100px 250px 0 250px;
+
+  div:nth-of-type(1) {
+    display: flex;
+    width: 600px;
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: $button-color;
+        font-size:1.2em;
+      }
+      
+    }
+  }
+
+  div {
+    display: flex;
+    align-items:center;
+
+    img {
+      margin-right: 50px;
+    }
+  }
+}
+
+.rights {
+  background: $bg-color; 
+  padding: 0 0 100px 250px;
+  color:$text-color;
+}
