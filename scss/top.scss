@@ -1,0 +1,27 @@
+// top
+
+.top {
+  height: 500px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  background: $bg-color;
+
+  div {   
+    margin-right: 50px;
+    img {
+      margin: 0 0 50px 120px;
+    }
+        h1 {
+          text-align: center;
+          margin-bottom: 20px;
+          font-size: 2em;
+        }
+
+        p {
+          text-align: center;
+          font-size: 1.5em;
+          color: $text-color;
+        }    
+  }  
+}
